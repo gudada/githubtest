@@ -1,0 +1,20 @@
+$ mkdir   建立文件夹
+$ cd    打开文件夹
+$ pwd   查看路径
+$ git init 建立版本库
+$ git add 添加文件到仓库
+$ git commit -m"" 给文件添加个标识
+$ git status 查看仓库状态
+$ git diff  查看文件修改情况
+$ git log 查看版本情况
+$ git reset --hard HEAD^ 回退到上一版本
+$ git reset --hard 3628164 回退到指定版本
+$ git reset HEAD 暂存区撤销
+$ ssh-keygen -t rsa -C "youremail@example.com"创建SSH KEY
+$ git remote add origin git@github.com:michaelliao/learngit.git 关联远程库
+$ git push -u origin master 将本地master分支推送到远程库（第一次）
+$ git push origin master 将本地master分支推送到远程库
+$ git clone git@github.com:michaelliao/gitskills.git 从远程克隆一个库下来
+$ git checkout -b dev 创建dev分支并且切换到dev分支
+$ git branch 查看当前分支
+$ git checkout 切换分支
